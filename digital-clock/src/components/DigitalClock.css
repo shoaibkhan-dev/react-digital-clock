@@ -1,0 +1,45 @@
+body{
+    background-color: #10b981;
+}
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 120px;
+  border-radius: 12px;
+  width: 260px;
+  background: #0f172a;
+  color: #e6f0ff;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.6);
+  font-family: Inter, Roboto, sans-serif;
+}
+
+.clock-time {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.clock-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.stop-btn,
+.start-btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.stop-btn {
+  background: #ef4444;
+}
+
+.start-btn {
+  background: #10b981;
+}
