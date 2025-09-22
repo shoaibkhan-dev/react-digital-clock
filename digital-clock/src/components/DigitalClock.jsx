@@ -42,8 +42,8 @@ return (
     <h1>Digital Clock</h1>
 <div className="clock-time">{formatTime(time)}</div>
 <div className="clock-buttons">
-<button className="stop-btn" onClick={stopClock}>Stop</button>
-<button className="start-btn" onClick={startClock}>Start</button>
+<button className="stop-btn" onClick={stopClock}>STOP</button>
+<button className="start-btn" onClick={startClock}>START</button>
 </div>
 </div>
 );
