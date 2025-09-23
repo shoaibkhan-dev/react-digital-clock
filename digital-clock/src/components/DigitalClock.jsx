@@ -39,7 +39,7 @@ return `${pad(hh)}:${pad(m)}:${pad(s)} ${ampm}`;
 
 return (
 <div className="clock-container">
-    <h1>Digital Clock</h1>
+    <h1>DIGITAL CLOCK</h1>
 <div className="clock-time">{formatTime(time)}</div>
 <div className="clock-buttons">
 <button className="stop-btn" onClick={stopClock}>STOP</button>
